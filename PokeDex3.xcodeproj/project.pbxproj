@@ -12,6 +12,8 @@
 		12CE1A58200753A2002ADF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CE1A56200753A2002ADF58 /* Main.storyboard */; };
 		12CE1A5A200753A2002ADF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CE1A59200753A2002ADF58 /* Assets.xcassets */; };
 		12CE1A5D200753A2002ADF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CE1A5B200753A2002ADF58 /* LaunchScreen.storyboard */; };
+		12CE1A6720075CE3002ADF58 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 12CE1A6620075CE0002ADF58 /* pokemon.csv */; };
+		12CE1A69200760BE002ADF58 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 12CE1A68200760BE002ADF58 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		12CE1A59200753A2002ADF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12CE1A5C200753A2002ADF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12CE1A5E200753A2002ADF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CE1A6620075CE0002ADF58 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "pokeapi-master/data/v1/pokemon.csv"; sourceTree = SOURCE_ROOT; };
+		12CE1A68200760BE002ADF58 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "pokeapi-master/data/v1/pokemon.csv"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				12CE1A54200753A2002ADF58 /* ViewController.swift */,
 				12CE1A56200753A2002ADF58 /* Main.storyboard */,
 				12CE1A59200753A2002ADF58 /* Assets.xcassets */,
+				12CE1A6620075CE0002ADF58 /* pokemon.csv */,
+				12CE1A68200760BE002ADF58 /* pokemon.csv */,
 				12CE1A5B200753A2002ADF58 /* LaunchScreen.storyboard */,
 				12CE1A5E200753A2002ADF58 /* Info.plist */,
 			);
@@ -125,7 +131,9 @@
 			files = (
 				12CE1A5D200753A2002ADF58 /* LaunchScreen.storyboard in Resources */,
 				12CE1A5A200753A2002ADF58 /* Assets.xcassets in Resources */,
+				12CE1A6720075CE3002ADF58 /* pokemon.csv in Resources */,
 				12CE1A58200753A2002ADF58 /* Main.storyboard in Resources */,
+				12CE1A69200760BE002ADF58 /* pokemon.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
